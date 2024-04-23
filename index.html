@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature and Humidity Data</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Temperature and Humidity Data</h1>
+    </div>
+    <div id="main-container">       
+        <div id="plot-and-controls-container">
+            <div id="plot-container"></div>
+            <div id="interval-dropdown">
+                <p>
+                    <label for="time-range">Time Range:</label>
+                    <select id="time-range">
+                        <option value="1">1 Hour</option>
+                        <option value="6">6 Hours</option>
+                        <option value="12">12 Hours</option>
+                        <option value="24">24 Hours</option>
+                    </select>
+                </p>
+            </div>
+        </div>         
+        <div id="plot-description">
+            <p>
+                Contained herein are the readings of the DHT11 
+                Temperature and Humidity sensor that is dangling 
+                off of my PC Tower.
+            </p>
+        </div>
+    </div>
+    <script src="plotScript.js"></script>
+</body>
+</html>

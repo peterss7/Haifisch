@@ -1,0 +1,48 @@
+body{
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1 {
+    color: yellow;
+}
+
+p{
+    color: yellow;
+}
+
+#header{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 6vh;
+    border: 1px solid yellow;   
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    width: 99.9vw;
+    border: 1px solid red;
+}
+
+#plot-container{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#plot-and-controls-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
