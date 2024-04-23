@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setInterval(refreshPlot, 5000);
 
     function refreshPlot() {
-        img.src = 'http://choking-little-girls:5501/plot';
+        img.src = 'http://127.0.0.1:5501/plot';
         img.alt = "Temperature and Humidity Plot";
     
         // Append the image to the plotContainer div
